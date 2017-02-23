@@ -8,7 +8,7 @@ public class KarsilastirmaOperatorleri {
 //        <= (Küçük Eşittir)
 //        >= (Büyük Eşittir)
 //        == (Eşittir)
-//        == (Eşit Değildir)
+//        != (Eşit Değildir)
 
         int a = 10;
         int b = 20;
