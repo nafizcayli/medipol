@@ -17,6 +17,7 @@ public class KararYapilariSwitch {
 //                break;
 //            default:
 //                degisken yukaridaki degerlerden hicbirine esit degil ise calistirilacak kod bloku
+//                break;
 //        }
 
         int islemNo = 3;
