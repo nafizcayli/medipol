@@ -3,15 +3,19 @@ package com.medipol.oop.ders3;
 public class Diziler {
     public static void main(String[] args) {
 
-//        Diziler, ayni turdeki degisken tiplerini sirali bir sekilde depolayan sabit boyutlu veri yapilaridir.
-//        Sabit boyutlu, yani dizilerin boyutlari tanimlandiktan sonra degistirilemezler.
-//        Diziler index temelli calisirlar. Indexler 0’dan baslar.Yani bir dizinin ilk elemaninin indexi 0, son elemanin indexi elemanSayisi - 1 dir.
+//        Diziler, ayni turdeki degisken tiplerini sirali bir sekilde
+// depolayan sabit boyutlu veri yapilaridir.
+//        Sabit boyutlu, yani dizilerin boyutlari tanimlandiktan sonra
+// degistirilemezler.
+//        Diziler index temelli calisirlar. Indexler 0’dan baslar.Yani bir
+// dizinin ilk elemaninin indexi 0, son elemanin indexi elemanSayisi - 1 dir.
 
 //        Dizi Degiskeni Tanimlamak
 //        degiskenTipi[] degiskenIsmi = new degiskenTipi[elemanSayisi]
 
 
-//        Dizi degiskenlerinin tipki diger degisken tanimlamalari gibi farkli yollari vardir
+//        Dizi degiskenlerinin tipki diger degisken tanimlamalari gibi
+// farkli yollari vardir
 
 //      Iki satirda tanimlama
         int[] sayiDizisi1;
@@ -23,15 +27,15 @@ public class Diziler {
         sayiDizisi1[4] = 5; // dizinin besinci elemanina '5' degerini atar
 
 //        Tek satirda tanimlama
-        boolean[] sayiDizisi2 = new boolean[5];
-        sayiDizisi2[0] = true; // dizinin ilk elemanina 'true' degerini atar
-        sayiDizisi2[1] = false; // dizinin ikinci elemanina 'false' degerini atar
-        sayiDizisi2[2] = true; // dizinin ucuncu elemanina 'true' degerini atar
-        sayiDizisi2[3] = true; // dizinin dorduncu elemanina 'true' degerini atar
-        sayiDizisi2[4] = false; // dizinin besinci elemanina 'false' degerini atar
+        boolean[] booleanDizisi = new boolean[5];
+        booleanDizisi[0] = true; // dizinin ilk elemanina 'true' degerini atar
+        booleanDizisi[1] = false; // dizinin ikinci elemanina 'false' degerini atar
+        booleanDizisi[2] = true; // dizinin ucuncu elemanina 'true' degerini atar
+        booleanDizisi[3] = true; // dizinin dorduncu elemanina 'true' degerini atar
+        booleanDizisi[4] = false; // dizinin besinci elemanina 'false' degerini atar
 
 //        Degerleri ile birlikte tanimlama
-        float[] sayiDizisi3 = {11.3f, 23.5f, 106.12f}; // dizinin ilk elemani 11.3, ikinci elemani 23.5, ucuncu elemani 106.12 degerine sahiptir.
+        float[] floatDizisi = {11.3f, 23.5f, 106.12f}; // dizinin ilk elemani 11.3, ikinci elemani 23.5, ucuncu elemani 106.12 degerine sahiptir.
 
 
 //        Dizinin elemanlarina ulasmak icin ulasilmak istenilen elemanin indis'i kullanilir.
