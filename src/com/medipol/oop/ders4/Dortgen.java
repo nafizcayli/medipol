@@ -41,16 +41,23 @@ public class Dortgen { // Sinif tanimi
     }
 
 
-    public int alaniHesapla() {
-        return this.kisaKenar * uzunKenar;
+    public float alaniHesapla() {
+        return this.kisaKenar * this.uzunKenar; // 'this' kelimesi, JVM'ye bu sinifin degiskenleri olan 'kisaKenar' ve 'uzunKenar'i ifade eder
+//        return kisaKenar * uzunKenar;         // Eger ayni isimde baska bir degisken tanimlamadiysak, 'this' kelimesi olmadan da degiskenleri ifade edebiliriz
+//        return getKisaKenar() * getUzunKenar();   // Kapsulleme methodlarindan get (degiskenin degerini donduren) fonksiyonlarini kullanarak da ayni isi yapan kodu yapabilirdik
     }
 
-    public int cevresiniHesapla() {
-        return kisaKenar * 2 + uzunKenar * 2;
+    public float cevresiniHesapla() {
+        return (this.kisaKenar + this.uzunKenar) * 2;
+//        return (kisaKenar + uzunKenar) * 2;
+//        return (getKisaKenar() + getUzunKenar()) * 2;
     }
 
     public boolean kareMi() {
-        return kisaKenar == uzunKenar;
+        return this.kisaKenar == this.uzunKenar;
+//        return kisaKenar == uzunKenar;
+//        return getKisaKenar() == getUzunKenar();
     }
+
 
 }
