@@ -101,7 +101,9 @@ public class AlisverisListesi {
         } catch (FileNotFoundException e) {
 //            e.printStackTrace();
         } finally {
-            okuyucu.close();
+            if (okuyucu != null) {
+                okuyucu.close();
+            }
         }
     }
 
