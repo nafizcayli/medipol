@@ -31,8 +31,9 @@ public class MatematikselOperatorler {
 
         System.out.println(3 + 5);
 
-        System.out.println(5 / 2f);
-        System.out.println(5f / 2);
+        System.out.println(5 / 2);  // 2
+        System.out.println(5 / 2f); // 5 / 2.0 = 2.5
+        System.out.println(5f / 2); // 5.0 / 2 = 2.5
         System.out.println(5 / 2.);
         System.out.println(5. / 2);
 
