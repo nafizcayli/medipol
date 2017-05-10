@@ -17,4 +17,4 @@ Amiral Batti Oyunu (PRJ2)
 Otopark Sistemi Simulasyonu (PRJ3)
     Giris yapan araca bos park alaninin yerini soyleme (A7)
     Kalis suresine gore degisken ucret sistemi
-    Raporlama (giris - cikis yapan arac sayisi, ciroo)
+    Raporlama (giris - cikis yapan arac sayisi, ciro)
