@@ -1,0 +1,20 @@
+Projeler
+
+Yemek tarifi programi (PRJ1)
+    Yemek tarifi ekleme
+    Listeleme
+    Arama
+    Yemeğin kalori miktarini hesaplama
+
+
+
+Amiral Batti Oyunu (PRJ2)
+    Bilgisayara karsi amiral batti oyunu
+    Son oyunlarin istatistikleri (kac kere oynandi, kazanildi, kaybedildi)
+
+
+
+Otopark Sistemi Simulasyonu (PRJ3)
+    Giris yapan araca bos park alaninin yerini soyleme (A7)
+    Kalis suresine gore degisken ucret sistemi
+    Raporlama (giris - cikis yapan arac sayisi, ciro)
